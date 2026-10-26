@@ -4,9 +4,8 @@ A NumPy reproduction of the expert-parallel load balancer (EPLB) used in
 [DeepInfer](https://github.com/deepseek-ai/DeepInfer). It runs on CPU and needs
 no GPU.
 
-The simulation answers three questions about the upstream design: whether
-placement alone is enough, how many redundant experts are needed, and how the
-rearrangement interval affects load balance.
+The simulation tests whether placement alone is enough, how many redundant
+experts are needed, and how the rearrangement interval affects load balance.
 
 The full suite covers 24 configurations and about 40,000 simulated steps, and
 runs in under three minutes.

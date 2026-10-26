@@ -1,8 +1,8 @@
 # Reproducing DeepInfer's EPLB in NumPy
 
 This repository reimplements the expert-parallel load balancer used in DeepInfer
-and runs it against synthetic traffic. The aim is to measure how the three parts
-of the upstream design contribute to load balance, since the deployment
+and runs it against synthetic traffic. The aim is to measure how each part of the
+upstream design contributes to load balance, since the deployment
 documentation describes the mechanism but does not separate the effects.
 
 The companion note on DeepInfer's architecture is at
