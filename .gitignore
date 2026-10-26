@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# Per-step curves are large; regenerate them with experiments/run_all.py
+results/*.npy
